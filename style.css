@@ -22,7 +22,7 @@ footer {
   flex-shrink: 0;
   flex-grow: 0;
   background-color: #1f2937;
-  color: #f9faf8;
+
   height: 72px;
 }
 
@@ -36,17 +36,52 @@ a {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  color: #f9faf8;
 }
 
 .header-links {
   display: flex;
   gap: 16px;
   font-size: 18px;
+  color: #e5e7eb;
 }
 
 main {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-left,
+.hero-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+button {
+  background-color: #3882f6;
+  border: 0;
+  padding: 8px;
+  border-radius: 0.5em;
+  color: #f9fsf8;
 }
 
 footer {

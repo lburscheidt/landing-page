@@ -88,7 +88,7 @@ button {
   border: 0;
   padding: 8px;
   border-radius: 0.5em;
-  color: #f9fsf8;
+  color: #f9faf8;
 }
 
 img {
@@ -101,6 +101,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 52px;
 }
 
 .title {
@@ -124,6 +125,35 @@ img {
 
 .text {
   text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote-para {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 72px;
+}
+
+.byline {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.quote-text {
+  font-size: 36px;
+  margin: 0;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
 }
 
 footer {

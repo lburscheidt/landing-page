@@ -159,6 +159,7 @@ button {
 
 .text {
   text-align: center;
+  font-size: 18px;
 }
 
 .quote {
@@ -170,7 +171,7 @@ button {
 }
 
 .quote-para {
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   padding: 72px;

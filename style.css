@@ -24,6 +24,7 @@ footer {
   flex-grow: 0;
   background-color: #1f2937;
   height: 72px;
+  align-items: center;
 }
 
 li {
@@ -34,7 +35,8 @@ a {
 }
 h1,
 h2,
-p {
+p,
+ul {
   margin: 0;
 }
 
